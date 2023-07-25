@@ -590,10 +590,6 @@ a.themes-btn {
   margin-bottom: 10px;
 }
 
-.title__wrapper {
-  margin-bottom: 20px;
-}
-
 .small__title {
   display: inline-block;
   font-size: 14px;
@@ -849,6 +845,8 @@ a.themes-btn {
   border: 5px solid #fff
 }
 
+/* Consultation section */
+
 #consultation {
   background-image: url(/assets/1image-1.jpg);
   background-position: center center;
@@ -856,6 +854,29 @@ a.themes-btn {
   background-size: cover;
   padding: 110px 15px 90px 15px;
 }
+
+.consult__content .section__title, .consult__subtitle {
+  color: var(--white-color);
+}
+
+.consult__subtitle {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  color: var(--white-color);
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
+
+.consult__content {
+  text-align: left;
+}
+
+#consultation .btn__area {
+  justify-content: flex-end;
+}
+
 
 
 
