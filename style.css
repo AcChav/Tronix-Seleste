@@ -307,7 +307,6 @@ a.themes-btn {
 
 /* Banner */
 #banner {
-  height: 100vh;
   background: #ffffffab;
   background-image: url(/assets/hero-banner.svg);
   background-blend-mode: overlay;
@@ -584,6 +583,11 @@ a.themes-btn {
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
+  transform: translateY(245px);
+}
+
+.ty {
+  transform: translateY(245px);
 }
 
 .title__content {
@@ -729,6 +733,7 @@ a.themes-btn {
   left: 0;
   position: absolute;
   z-index: -1;
+  transform: translateY(245px);
 }
 
 #about {
@@ -737,6 +742,7 @@ a.themes-btn {
   margin-bottom: 0px;
   padding: 293px 0px 175px 0px;
   position: relative;
+  transform: translateY(245px);
 }
 
 .about__content {
@@ -854,6 +860,7 @@ a.themes-btn {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 110px 15px 90px 15px;
+  transform: translateY(245px);
 }
 
 .consult__content .section__title, .consult__subtitle {
@@ -882,6 +889,7 @@ a.themes-btn {
 
 #about__extension {
   padding: 115px 0px 110px 0px;
+  transform: translateY(245px);
 }
 
 #about__extension .about__title {
@@ -932,6 +940,7 @@ a.themes-btn {
 
 #counter {
   padding: 0px 0px 20px 0px;
+  transform: translateY(245px);
 }
 
 .counter__wrapper {
@@ -1005,6 +1014,7 @@ a.themes-btn {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 112px 0px 115px 0px;
+  transform: translateY(245px);
 }
 
 #testimonials p {
@@ -1122,6 +1132,7 @@ a.themes-btn {
 /* Team section */
 #team {
   padding: 112px 0px 80px 0px;
+  transform: translateY(245px);
 }
 
 .team__container {
@@ -1235,6 +1246,7 @@ a.themes-btn {
 
 #projects {
   padding: 0px 0px 80px 0px;
+  transform: translateY(245px);
 }
 
 .container-fluid {
@@ -1302,7 +1314,7 @@ a.themes-btn {
   align-items: center;
 }
 
-
+/* slider */
 
 
 
