@@ -1688,6 +1688,77 @@ a.news__btn:hover {
   background: var(--thm-color);
 }
 
+/* brands section */
+
+#brands {
+  padding: 80px 0px 120px 0px;
+  transform: translateY(245px);
+}
+
+.brand__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-color);
+  margin-right: -11px;
+  margin-left: -10px;
+  margin-top: -1px;
+  padding: 70px 50px;
+  transition: .4s;
+}
+
+#brands .title__content {
+  margin-bottom: 50px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.brand__wrapper {
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.brand__img {
+  transition: .4s;
+}
+
+.brand__box:hover {
+  box-shadow: 0px 14px 43px rgba(147, 151, 160, 0.15);
+}
+
+.brand__wrapper [class*='col-']:nth-child(5) .brand__box,
+.brand__wrapper [class*='col-']:nth-child(6) .brand__box,
+.brand__wrapper [class*='col-']:nth-child(7) .brand__box,
+.brand__wrapper [class*='col-']:nth-child(8) .brand__box {
+	border-bottom: 0;
+}
+
+.brand__wrapper [class*='col-']:nth-child(1) .brand__box,
+.brand__wrapper [class*='col-']:nth-child(5) .brand__box {
+	border-left: 0;
+  border-top: 0;
+}
+
+.brand__wrapper [class*='col-']:nth-child(6) .brand__box,
+.brand__wrapper [class*='col-']:nth-child(8) .brand__box,
+.brand__wrapper [class*='col-']:nth-child(2) .brand__box,
+.brand__wrapper [class*='col-']:nth-child(3) .brand__box {
+  border-top: 0;
+}
+
+.brand__wrapper [class*='col-']:nth-child(3) .brand__box {
+  border-bottom: 0;
+}
+
+.brand__img:hover img {
+  -webkit-filter: contrast(30%);
+}
+
+
+
 
 
 
