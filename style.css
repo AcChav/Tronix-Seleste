@@ -1754,7 +1754,7 @@ a.news__btn:hover {
 }
 
 .brand__img:hover img {
-  -webkit-filter: contrast(30%);
+  filter: contrast(30%);
 }
 
 
