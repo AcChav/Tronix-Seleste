@@ -1093,21 +1093,18 @@ a.themes-btn {
   align-items: center;
 }
 
-.slider__dots {
+.slick-dots {
   position: absolute;
   display: block;
   width: 100%;
   padding: 0;
+  bottom: -40px;
   margin: 0;
   list-style: none;
   text-align: center;
-  left: 0;
-  right: 0;
   z-index: 1;
-  margin-top: 47px;
 }
-
-.slider__dots li {
+.slick-dots li {
   position: relative;
   cursor: pointer;
   margin: 0 4px;
@@ -1122,11 +1119,7 @@ a.themes-btn {
   -webkit-transition: all 0.3s ease-in;
 }
 
-.dots__active {
-  border: 2px solid var(--thm-color);
-}
-
-.slider__dots li button {
+.slick-dots li button {
   height: 8px;
   font-size: 0;
   border-radius: 50px;
@@ -1138,10 +1131,36 @@ a.themes-btn {
   visibility: hidden;
 }
 
-.slider__dots li.dots__active button {
+.slick-dots li.slick-active button{
   background: var(--thm-color);
   visibility: visible;
 }
+
+.slick-dots li.slick-active{
+  border: 2px solid var(--thm-color);
+}
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: var(--thm-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: var(--thm-color);
+}
+
 
 /* Team section */
 #team {
