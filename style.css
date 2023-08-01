@@ -317,7 +317,7 @@ a.themes-btn {
   background: #ffffffab;
   background-image: url(/assets/hero-banner.svg);
   background-blend-mode: overlay;
-  background-position: bottom right;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1760,7 +1760,6 @@ a.news__btn:hover {
 
 /* footer section */
 #footer__area {
-  padding: 80px 0px 120px 0px;
   transform: translateY(245px);
   background-color: #1D1A1A;
   background-image: url(/assets/footer-bg.jpg);
@@ -1808,7 +1807,7 @@ a.news__btn:hover {
   align-items: center;
   border-radius: 100px;
   background: #15284C;
-  margin-top: 25px;
+  margin-top: 16px;
   margin-right: 7px;
 }
 
@@ -1844,10 +1843,114 @@ a.news__btn:hover {
   justify-content: center;
 }
 
+/* recent posts */
 
+.foot__posts ul {
+  margin: 0;
+  padding: 0;
+}
 
+.foot__posts ul li {
+  list-style: none;
+}
 
+.post__item {
+  display: flex;
+  margin-bottom: 17px;
+  padding-top: 8px;
+}
 
+.post__item .post__img img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  margin-right: 20px;
+  min-width: 60px;
+  border-radius: 10px;
+}
+
+.post__title a {
+  color: var(--white-color);
+}
+
+.post__title a:hover {
+  color: var(--thm-color);
+}
+
+.post__title {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.post__date {
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white-color);
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.post__date i {
+  margin-right: 8px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+/* footer bottom */
+
+.icon__box {
+  display: flex;
+  padding: 60px 40px;
+  border-right: 1px solid #152B54;
+}
+
+.footer__bot [class*='col-']:first-child .icon__box {
+  padding-left: 0;
+}
+
+.footer__bot [class*='col-']:last-child .icon__box {
+  border: none;
+}
+
+.icon {
+  height: 85px;
+  width: 85px;
+  min-width: 85px;
+  background: #152B54;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  color: var(--white-color);
+  margin-right: 25px;
+}
+
+.icon__title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--white-color);
+  margin-bottom: 12px;
+}
+
+.icon__desc {
+  font-weight: 500;
+  color: #8A99B4;
+  line-height: 26px;
+  font-family: var(--body-font);
+}
+
+.copyright {
+  padding: 30px 0;
+  text-align: center;
+  background: #0B2048;
+  color: var(--white-color);
+  font-family: var(--body-font);
+}
 
 
 
