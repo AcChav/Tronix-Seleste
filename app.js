@@ -1,4 +1,4 @@
-// counter 
+  // counter section
   function animateCounterOnScroll() {
       const counters = document.querySelectorAll('.timer');
     
