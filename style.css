@@ -1972,6 +1972,12 @@ a.news__btn:hover {
   font-family: var(--body-font);
 }
 
+/* About page */
+
+.about.counter__wrapper {
+  border-bottom: 1px solid var(--border-color);
+}
+
 
 
 
