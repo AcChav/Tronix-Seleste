@@ -1974,6 +1974,58 @@ a.news__btn:hover {
 
 /* About page */
 
+#about__banner {
+  padding: 250px 0 200px;
+  margin-top: -1px;
+  background-image: url(./assets/about-bg.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 560px;
+  text-align: center;
+  color: var(--black-color);
+}
+
+#about__banner::before {
+  mask-image: url(./assets/blue-line.svg);
+  -webkit-mask-image: url(./assets/blue-line.svg);
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-position: top;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 113px 0;
+  background: var(--thm-color); 
+  z-index: 11;
+}
+
+#about__banner::after {
+  mask-image: url(./assets/line-bg.svg);
+  -webkit-mask-image: url(./assets/line-bg.svg);
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-position: top;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 60px 0;
+  background: #ffffff;
+}
+
 .about.counter__wrapper {
   border-bottom: 1px solid var(--border-color);
 }
