@@ -189,6 +189,11 @@ img {
   color: var(--black-color);
 }
 
+.header__mail i {
+  margin-right: 6px;
+  color: var(--black-color);
+}
+
 /* Header Menu */
 
 .header__menu {
@@ -1978,7 +1983,7 @@ a.news__btn:hover {
   padding: 250px 0 200px;
   margin-top: -1px;
   background-image: url(./assets/about-bg.jpg);
-  background-position: top right;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -2028,6 +2033,26 @@ a.news__btn:hover {
 
 .about.counter__wrapper {
   border-bottom: 1px solid var(--border-color);
+}
+
+.header__area a.themes-btn {
+  margin-right: 0;
+}
+
+.abt__title {
+  margin: 0;
+  padding: 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  color: var(--black-color);
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+#welco {
+  transform: translateY(114px);
 }
 
 
