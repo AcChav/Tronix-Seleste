@@ -2055,6 +2055,99 @@ a.news__btn:hover {
   transform: translateY(114px);
 }
 
+#welco .about__content {
+  margin-right: 0;
+}
+
+.support__box {
+  padding: 40px;
+  box-shadow: 0px 3px 66px rgba(23, 22, 36, 0.07);
+  border-radius: 15px;
+}
+
+.support__list {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.list__title {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.list__icon {
+  line-height: 22px;
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    color: var(--thm-color);
+    background: var(--bg-color);
+    height: 55px;
+    width: 55px;
+    min-width: 55px;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.call__area {
+  display: flex;
+  align-items: center;
+}
+
+.call__area .call__icon {
+  height: 50px;
+  width: 50px;
+  min-width: 50px;
+  background: var(--thm-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 100px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.call__text {
+  margin-left: 5px;
+}
+
+.call__title {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.call__num {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--black-color);
+}
+
+.support__box a.themes-btn {
+  margin-right: 0;
+}
+
+#welco .about__desc p {
+  margin-bottom: 16px;
+}
+
+#welco .about__desc {
+  margin-bottom: 20px;
+}
+
+#about__extension.extension {
+  transform: translateY(165px);
+}
+
+
+
+
 
 
 
