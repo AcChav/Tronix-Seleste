@@ -2346,6 +2346,66 @@ i.fas.fa-phone-alt {
   transform: rotate(85deg);
 }
 
+#contact__form .container {
+  padding: 80px 80px 80px 80px;
+  background-color: #EFF1F5;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.overlay {
+  background-color: transparent;
+  background-image: radial-gradient(at center right, #0E59F2 0%, #0E59F200 49%);
+  opacity: 0.05;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#contact__form .col-5 {
+  width: 40%;
+}
+
+#contact__form .col-7 {
+  width: 60%;
+}
+
+.benefits__items {
+  text-align: left;
+  align-items: center;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.benefit__icon {
+  font-size: 12px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid var(--thm-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--thm-color);
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.left__title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: var(--black-color);
+}
+
+#contact__form .left__benefits .container {
+  padding: 0 10px;
+}
+
+.left__info p, .left__info {
+  margin-bottom: 1rem;
+}
+
+#contact__form .left__benefits .container {
+  padding-left: 0;
+}
 
 
 
