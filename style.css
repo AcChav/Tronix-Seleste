@@ -2288,8 +2288,63 @@ a.news__btn:hover {
   object-fit: cover;
 }
 
+/* contact page */
+#time {
+  padding: 110px 15px 120px 15px
+}
 
 
+.item__wrapper {
+  display: flex;
+  padding: 80px 70px 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+}
+
+#time .icon__box {
+  display: flex;
+  margin-bottom: 30px;
+  border-right: 1px solid var(--border-color);
+  padding: 0 30px;
+}
+
+#time .icon {
+  font-size: 22px;
+  height: 70px;
+  width: 70px;
+  background: var(--bg-color);
+  color: var(--thm-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  min-width: 70px;
+  margin-right: 25px;
+}
+
+#time .icon__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #1C1C25;
+  margin: 0px 0px 13px 0px;
+}
+
+
+#time .icon__desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #7B7E86;
+}
+
+#time .icon__box.nb {
+  border-right: 0;
+}
+
+i.fas.fa-phone-alt {
+  transform: rotate(85deg);
+}
 
 
 
