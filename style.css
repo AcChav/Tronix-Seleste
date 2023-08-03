@@ -2194,6 +2194,7 @@ a.news__btn:hover {
 .client__img img {
   position: absolute;
   bottom: 0;
+  left: 60px;
 }
 
 #client .slide__item {
@@ -2206,7 +2207,86 @@ a.news__btn:hover {
   font-weight: 600;
 }
 
+.tes__1, .tes__2, .tes__3, .tes__4 {
+  position: absolute;
+  -webkit-animation: scale-down-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+  animation: scale-down-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+}
 
+@-webkit-keyframes scale-down-center {
+  0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+  }
+  100% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+  }
+  100% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+  }
+}
+
+/* shape Image */
+.tes__1 {
+  position: absolute;
+  top: 45%;
+  right: 17%;
+  transform: translate(-50%, 0);
+}
+
+.tes__1  img {
+  height: 110px;
+  width: 110px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.tes__2 {
+  position: absolute;
+  top: 17%;
+  right: 10%;
+}
+
+.tes__2 img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.tes__3 {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+}
+
+.tes__3 img {
+  height: 130px;
+  width: 130px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.tes__4 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+}
+
+.tes__4 img {
+  height: 95px;
+  width: 95px;
+  border-radius: 100%;
+  object-fit: cover;
+}
 
 
 
