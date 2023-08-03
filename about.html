@@ -534,6 +534,89 @@
       </div>
     </section>
 
+    <!-- client section -->
+    <section id="client">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12">
+            <div class="title__content">
+              <span class="small__title">
+                Clients Talk
+              </span>
+              <h2 class="section__title">
+                People talk about us
+              </h2>
+            </div>
+          </div>
+          <div class="col col-12">
+            <div class="row">
+              <div class="col col-4">
+                <div class="client__img">
+                  <img 
+                  width="300" 
+                  height="409" 
+                  src="./assets/img1.png" decoding="async" 
+                  loading="lazy" 
+                  sizes="(max-width: 468px) 100vw, 468px">                        
+                </div>
+              </div>
+              <div class="col col-4 client__slider">
+                <div class="slide__item">
+                    <div class="image__slide">
+                      <img 
+                      width="119" 
+                      height="120" 
+                      src="./assets/testi.png" 
+                      decoding="async" 
+                      loading="lazy">
+                    </div>
+                    <div class="info__slide">
+                      <h3 class="info__title">
+                        "Elit penatibus curae aucto"
+                      </h3>
+                      <div class="info__desc">
+                        Sem a penatibus varius dui nostra vehicula gravida congue, potenti etiam erat justo faucibus fusce quis nulla eu, dignissim eget posuere blandit curabitur porta inceptos. Inceptos faucibus fringilla pharetra mi suscipit curabitu                           
+                      </div>
+                      <div class="info__name">
+                        Andrew Smith  
+                      </div>
+                      <div class="info__designation">
+                        Designer at <span class="highlight">(Montan_Agency)</span>   
+                      </div>
+                    </div>
+                </div>
+                <div class="slide__item">
+                    <div class="image__slide">
+                      <img 
+                      width="119" 
+                      height="120" 
+                      src="./assets/testi.png" 
+                      decoding="async" 
+                      loading="lazy">
+                    </div>
+                    <div class="info__slide">
+                      <h3 class="info__title">
+                        "Elit penatibus curae aucto"
+                      </h3>
+                      <div class="info__desc">
+                        Sem a penatibus varius dui nostra vehicula gravida congue, potenti etiam erat justo faucibus fusce quis nulla eu, dignissim eget posuere blandit curabitur porta inceptos. Inceptos faucibus fringilla pharetra mi suscipit curabitu                           
+                      </div>
+                      <div class="info__name">
+                        Andrew Smith  
+                      </div>
+                      <div class="info__designation">
+                        Designer at <span class="highlight">(Montan_Agency)</span>   
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col col-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- brands section -->
     <section id="brands">
       <div class="container">
@@ -913,5 +996,17 @@
 
     <script src="slider.js"></script>
     <script src="slick-slider.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.client__slider').slick({
+          slidesToShow: 1,
+          autoplay: true, // Enable auto slide
+          autoplaySpeed: 3000,
+          prevArrow: false, 
+          nextArrow: false, 
+        });
+      });
+    </script>
   </body>
 </html>

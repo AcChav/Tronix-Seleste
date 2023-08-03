@@ -2145,7 +2145,66 @@ a.news__btn:hover {
   transform: translateY(165px);
 }
 
+#client {
+  transform: translateY(165px);
+  padding: 112px 60px;
+  background-color: #E1DFFF;
+  background-image: url(./assets/bg-area-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
+.info__title {
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 500;
+  margin-bottom: 23px;
+}
+
+.info__desc, .info__designation {
+  font-family: var(--body-font);
+}
+
+.info__name {
+  margin-top: 43px;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--black-color);
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.slick__slide {
+  text-align: center;
+}
+
+.image__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+#client .title__content {
+  margin-bottom: 70px;
+}
+
+.client__img img {
+  position: absolute;
+  bottom: 0;
+}
+
+#client .slide__item {
+  width: 100%;
+  text-align: center;
+}
+
+#client .highlight {
+  color: var(--thm-color);
+  font-weight: 600;
+}
 
 
 
