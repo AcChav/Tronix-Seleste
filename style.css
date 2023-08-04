@@ -2591,6 +2591,46 @@ textarea {
     text-decoration: none;
   }
 
+  /* services */
+  .section__description {
+    padding: 0;
+  }
+
+  /* about */
+  .about__img__wrapper .about__main img {
+    scale: .9;
+  }
+
+  .about__small {
+    transform: translateX(215px);
+    top: 219px;
+    left: -222px;
+}
+
+  .about__img__wrapper .about__small img  {
+    scale: .8;
+  }
+
+  /* consultation */
+  #consultation .btn__area {
+    justify-content: flex-start;
+}
+
+  /* about extension */
+  .mar-r {
+    margin-right: 0;
+}
+
+  #about__extension img{
+    padding-top: 40px;
+  }
+
+  /* counter */
+  .counter__wrapper [class*='col-']:last-child .counter__items, 
+  .counter__wrapper [class*='col-']:first-child .counter__items {
+    justify-content: center;
+}
+
   /* customer service */
 
   #customer__service {
