@@ -10,9 +10,27 @@ $(document).ready(function(){
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1200,
         settings: {
-          arrows: false,
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
         }
       }
     ]
