@@ -2347,6 +2347,10 @@ i.fas.fa-phone-alt {
 
 /* contact section */
 
+#contact__form {
+  padding: 0px 0px 120px 0px;
+}
+
 #contact__form .container {
   padding: 80px 80px 80px 80px;
   background-color: #EFF1F5;
@@ -2403,6 +2407,84 @@ i.fas.fa-phone-alt {
   padding-left: 0;
   background: none;
 }
+
+input {
+  color: #626262;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 18px 20px;
+  box-shadow: none;
+  outline: none;
+  width: 100%;
+  margin-bottom: 15px;
+  max-height: 70px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+textarea {
+  min-height: 120px;
+  width: 100%;
+  color: #626262;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 13px 20px;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 30px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.input__area input[type="text"] {
+  background: var(--white-color);
+  margin-bottom: 22px;
+  border: transparent;
+  height: 56px;
+}
+
+.input__area .select {
+  background: var(--white-color);
+  margin-bottom: 22px;
+  color: #7B7E86;
+  border: transparent;
+  border-radius: 10px;
+  padding: 18px 20px;
+  box-shadow: none;
+  outline: none;
+  width: 100%;
+  max-height: 70px;
+  height: 64px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.input__area textarea {
+  background: var(--white-color);
+  border: transparent;
+  height: 146px;
+}
+
+.input__area input[type="submit"] {
+  background: var(--thm-color);
+  color: var(--white-color);
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  transition: .4s;
+  width: 100%;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#footer__area.contact {
+  transform: translateY(0);
+}
+
+
 
 
 
