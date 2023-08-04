@@ -2484,6 +2484,142 @@ textarea {
   transform: translateY(0);
 }
 
+.mobile__menu, .hamburger {
+  display: none;
+}
+
+.menu__toggle {
+  display: none;
+}
+
+/* Media queries */
+
+@media (max-width: 767px) {
+  .header__top .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header__top .col {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  #projects .about__content {
+    display: block;
+    width: 100%;
+  }
+
+  #projects .about__title {
+    margin-bottom: 32px;
+  }
+
+  .prev {
+    margin-left: 0;
+  }
+
+
+  .col {
+    display: block;
+    width: 100%;
+  }
+
+  .d-flex {
+    justify-content: center;
+  }
+
+  .header__mail {
+    margin: 0;
+  }
+
+  .col-auto .btn__area {
+    display: none;
+  }
+
+  .main__menu ul {
+    display: none;
+  }
+
+  .header__menu .mobile__menu {
+    display: none;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    background: #fff;
+  }
+
+  .hamburger {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    font-size: 20px;
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    background: var(--bg-color);
+    color: var(--thm-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hamburger i {
+    font-size: 24px;
+  }
+
+  .mobile__menu {
+    display: none;
+    text-align: center;
+  }
+
+  .mobile__menu ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .mobile__menu li {
+    margin-bottom: 20px;
+  }
+
+  .mobile__menu a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  /* customer service */
+
+  #customer__service {
+    padding: 100px 0px 110px 0px
+  }
+
+  /* footer */
+
+  .footer__bot {
+    padding: 50px 0;
+  }
+
+  .footer__top {
+    padding: 110px 15px 75px
+  }
+
+  .footer__top .col {
+    padding-top: 30px;
+  }
+
+  .footer__bot [class*='col-']:first-child .icon__box {
+    padding: 30px 15px;
+}
+
+  .icon__box {
+    padding: 30px 15px;
+  }
+}
+
 
 
 
