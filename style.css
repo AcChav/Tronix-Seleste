@@ -2290,9 +2290,8 @@ a.news__btn:hover {
 
 /* contact page */
 #time {
-  padding: 110px 15px 120px 15px
+  padding: 110px 15px 120px 15px;
 }
-
 
 .item__wrapper {
   display: flex;
@@ -2346,17 +2345,14 @@ i.fas.fa-phone-alt {
   transform: rotate(85deg);
 }
 
+/* contact section */
+
 #contact__form .container {
   padding: 80px 80px 80px 80px;
   background-color: #EFF1F5;
   border-radius: 20px 20px 20px 20px;
-}
-
-.overlay {
-  background-color: transparent;
   background-image: radial-gradient(at center right, #0E59F2 0%, #0E59F200 49%);
-  opacity: 0.05;
-  border-radius: 20px 20px 20px 20px;
+  background-blend-mode: overlay;
 }
 
 #contact__form .col-5 {
@@ -2405,6 +2401,7 @@ i.fas.fa-phone-alt {
 
 #contact__form .left__benefits .container {
   padding-left: 0;
+  background: none;
 }
 
 
