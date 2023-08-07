@@ -77,7 +77,7 @@
       <div class="header__menu">
         <div class="container">
           <div class="row flex-sb">
-            <div class="header__logo col-auto">
+            <div class="header__logo col-auto col-md-6">
               <a href="#">
                 <img 
                 src="/assets/Tronix-17.svg" 
@@ -88,8 +88,25 @@
                 decoding="async">
               </a>
             </div>
-            <div class="col-auto">
+            <div class="col-auto col-md-6 right">
+              <div class="hamburger">
+                <i class="fas fa-bars"></i>
+              </div>
               <nav class="main__menu">
+                <div class="close__btn">
+                  <i class="bi bi-x-lg"></i>
+                </div>
+                <div class="mobile__logo">
+                  <a href="#">
+                    <img 
+                    src="/assets/Tronix-17.svg" 
+                    alt="tronix logo" 
+                    loading="lazy" 
+                    width="159" 
+                    height="47" 
+                    decoding="async">
+                  </a>
+                </div>
                 <ul>
                   <li>
                     <a href="index.html">Home</a> 
@@ -101,7 +118,7 @@
                     <a href="#">Services</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="contact.html">Contact</a>
                   </li>
                 </ul>
               </nav>
@@ -610,6 +627,18 @@
     <!-- slick -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $(".hamburger").click(function() {
+          $(".main__menu").toggleClass("active");
+        });
+    
+        $(".close__btn").click(function() {
+          $(".main__menu").removeClass("active");
+        });
+      });
+    </script>
 
     <script src="slider.js"></script>
     <script src="slick-slider.js"></script>

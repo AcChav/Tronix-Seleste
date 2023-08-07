@@ -911,10 +911,6 @@ a.themes-btn {
   transform: translateY(245px);
 }
 
-#about__extension .about__title {
-  margin: 0px 0px 70px 0px;
-}
-
 .vector {
   background-image: url(/assets/Vector-16.png);
   background-position: 90% 50%;
@@ -2484,11 +2480,7 @@ textarea {
   transform: translateY(0);
 }
 
-.mobile__menu, .hamburger {
-  display: none;
-}
-
-.menu__toggle {
+.mobile__menu, .hamburger, .menu__toggle, .close__btn, .mobile__logo {
   display: none;
 }
 
@@ -2756,6 +2748,32 @@ textarea {
 
   .icon__box {
     padding: 30px 15px;
+  }
+
+  /* about page */
+
+  .client__img img, .tes__1, .tes__2, .tes__3 {
+    visibility: hidden;
+  }
+
+  #client {
+    padding: 112px 15px;
+  }
+
+  #welco .about__btn__area {
+    display: block;
+  }
+
+  .call__area {
+    margin-top: 30px;
+  }
+
+  .call__area .call__icon {
+    margin-left: 0;
+  }
+
+  .counter__items.center {
+    transform: translateX(-11px);
   }
 }
 
