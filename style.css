@@ -2495,6 +2495,15 @@ textarea {
 /* Media queries */
 
 @media (max-width: 767px) {
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .header__top .row {
     display: flex;
     flex-wrap: wrap;
@@ -2541,11 +2550,6 @@ textarea {
     display: none;
   }
 
-  .header__menu .mobile__menu {
-    display: none;
-    text-align: center;
-  }
-
   .hamburger {
     display: block;
     cursor: pointer;
@@ -2572,23 +2576,16 @@ textarea {
     font-size: 24px;
   }
 
-  .mobile__menu {
-    display: none;
-    text-align: center;
+  #banner {
+    padding-top: 35px;
   }
 
-  .mobile__menu ul {
-    list-style: none;
-    padding: 0;
+  .tronix__image::before, .tronix__image::after {
+    visibility: hidden;
   }
 
-  .mobile__menu li {
-    margin-bottom: 20px;
-  }
-
-  .mobile__menu a {
-    color: #000;
-    text-decoration: none;
+  .tronix__image img {
+    transform: translateY(35px);
   }
 
   /* services */
@@ -2635,6 +2632,21 @@ textarea {
 
   #customer__service {
     padding: 100px 0px 110px 0px
+  }
+
+  .cs__area {
+    padding: 25px 50px;
+    margin-left: 180px;
+  }
+
+  span.cs__border {
+    height: 1px;
+    width: 195px;
+    position: relative;
+    background: var(--white-color);
+    display: inline-block;
+    margin: 0 -1px;
+    top: -3px;
   }
 
   /* footer */
