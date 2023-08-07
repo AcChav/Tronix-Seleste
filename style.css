@@ -320,7 +320,7 @@ a.themes-btn {
 /* Banner */
 #banner {
   background: #ffffffab;
-  background-image: url(/assets/hero-banner.svg);
+  background-image: url(./assets/hero-banner.svg);
   background-blend-mode: overlay;
   background-position: top right;
   background-repeat: no-repeat;
@@ -591,7 +591,7 @@ a.themes-btn {
 /* Services Section */
 #services {
   padding-top: 255px;
-  background-image: url(/assets/curve-shape.svg);
+  background-image: url(./assets/curve-shape.svg);
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
@@ -874,7 +874,7 @@ a.themes-btn {
 /* Consultation section */
 
 #consultation {
-  background-image: url(/assets/1image-1.jpg);
+  background-image: url(./assets/1image-1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -912,7 +912,7 @@ a.themes-btn {
 }
 
 .vector {
-  background-image: url(/assets/Vector-16.png);
+  background-image: url(./assets/Vector-16.png);
   background-position: 90% 50%;
   background-size: 13% auto;
   background-repeat: no-repeat;
@@ -1024,7 +1024,7 @@ a.themes-btn {
 /* testimonials section */
 
 #testimonials {
-  background-image: url(/assets/5-1.jpg);
+  background-image: url(./assets/5-1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1508,7 +1508,7 @@ a.themes-btn {
 }
 
 .cs__bg {
-  background-image: url(/assets/bg-join.jpg);
+  background-image: url(./assets/bg-join.jpg);
   border-radius: 20px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1783,7 +1783,7 @@ a.news__btn:hover {
 #footer__area {
   transform: translateY(245px);
   background-color: #1D1A1A;
-  background-image: url(/assets/footer-bg.jpg);
+  background-image: url(./assets/footer-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
