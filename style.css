@@ -2480,7 +2480,11 @@ textarea {
   transform: translateY(0);
 }
 
-.mobile__menu, .hamburger, .menu__toggle, .close__btn, .mobile__logo {
+.mobile__menu, .hamburger, .menu__toggle, .mobile__logo {
+  display: none;
+}
+
+.close__btn i {
   display: none;
 }
 
@@ -2590,6 +2594,10 @@ textarea {
   .close__btn:hover {
     background-color: var(--black-color);
     color: var(--white-color);
+  }
+
+  .close__btn i {
+    display: unset;
   }
 
   .mobile__logo {
@@ -2744,13 +2752,24 @@ textarea {
 
   .footer__bot [class*='col-']:first-child .icon__box {
     padding: 30px 15px;
-}
+  }
 
   .icon__box {
     padding: 30px 15px;
   }
 
   /* about page */
+  #welco {
+    padding: 0 15px;
+  }
+
+  #welco p {
+    padding-right: 0;
+  }
+
+  .img__container {
+    padding-bottom: 20px;
+  }
 
   .client__img img, .tes__1, .tes__2, .tes__3 {
     visibility: hidden;
@@ -2775,6 +2794,33 @@ textarea {
   .counter__items.center {
     transform: translateX(-11px);
   }
+
+  /* contact page */
+  #time .item__wrapper {
+    display: block;
+    padding: 50px 0px 20px 0px;
+  }
+
+  #time .icon__box {
+    border-right: 0px;
+  }
+
+  #contact__form .container {
+    padding: 80px 40px 80px 40px;
+  }
+
+  #contact__form .col {
+    width: 100%;
+  }
+
+  .benefits__items.pad{
+    padding-bottom: 20px;
+  }
+
+  #contact__form .about_item {
+    margin-bottom: 35px;
+  }
+
 }
 
 
