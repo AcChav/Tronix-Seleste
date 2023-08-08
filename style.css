@@ -2791,6 +2791,7 @@ textarea {
 
   .icon__box {
     padding: 30px 15px;
+    border-right: 0;
   }
   
   .foot__social ul li a {
