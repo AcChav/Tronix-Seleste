@@ -2891,6 +2891,10 @@ textarea {
     transform: translateX(10px);
   }
 
+  .testimonial__box {
+    margin: 0 10px 30px 10px;
+  }
+
   .client__img img, .tes__1, .tes__2, .tes__3 {
     visibility: hidden;
   }
