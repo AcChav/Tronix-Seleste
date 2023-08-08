@@ -133,8 +133,6 @@ img {
 
 /* flex */
 .flex-sb {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -238,6 +236,10 @@ img {
 
 .main__menu ul li:first-child {
   margin-left: 0 !important;
+}
+
+.col-auto.none {
+  display: block;
 }
 
 /* Call Btn */
@@ -2006,7 +2008,7 @@ a.news__btn:hover {
   width: 100%;
   padding: 113px 0;
   background: var(--thm-color); 
-  z-index: 11;
+  z-index: 1;
 }
 
 #about__banner::after {
@@ -2491,7 +2493,7 @@ textarea {
 
 /* Media queries */
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .container {
     max-width: 720px;
   }
@@ -2500,10 +2502,9 @@ textarea {
     width: 50%;
   }
 
-  .right {
-    display: flex;
-    justify-content: flex-end;
-  }
+  .col-auto.none {
+    display: none;
+}
 
   .header__top .row {
     display: flex;
@@ -2528,7 +2529,6 @@ textarea {
   .prev {
     margin-left: 0;
   }
-
 
   .col {
     display: block;
@@ -2657,7 +2657,6 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateX(259px);
   }
 
   .hamburger:hover {
@@ -2683,6 +2682,10 @@ textarea {
 
   .image__wrapper {
     text-align: center;
+  }
+
+  .client__img img {
+    visibility: hidden;
   }
 
   .f-sb {
@@ -2768,7 +2771,6 @@ textarea {
     border-bottom: 1px solid var(--border-color);
   }
 
-
   /* footer */
 
   .footer__bot {
@@ -2796,6 +2798,10 @@ textarea {
   }
 
   /* about page */
+  .img__container {
+    text-align: center;
+  }
+  
   #welco {
     padding: 0 15px;
   }
@@ -2808,24 +2814,8 @@ textarea {
     padding-bottom: 20px;
   }
 
-  .client__img img, .tes__1, .tes__2, .tes__3 {
-    visibility: hidden;
-  }
-
   #client {
     padding: 112px 15px;
-  }
-
-  #welco .about__btn__area {
-    display: block;
-  }
-
-  .call__area {
-    margin-top: 30px;
-  }
-
-  .call__area .call__icon {
-    margin-left: 0;
   }
 
   .counter__items.center {
@@ -2860,7 +2850,7 @@ textarea {
   /* end */
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 767px) { 
   .header__top .col {
     display: block;
     width: 100%;
@@ -2872,7 +2862,6 @@ textarea {
   }
 
   .hamburger {
-    transform: translateX(72px);
     padding: 10px;
   }
 
@@ -2887,6 +2876,23 @@ textarea {
   .cs__area {
     padding: 25px 50px;
     margin-left: 180px;
+  }
+
+  .client__img img, .tes__1, .tes__2, .tes__3 {
+    visibility: hidden;
+  }
+
+  
+  #welco .about__btn__area {
+    display: block;
+  }
+
+  .call__area {
+    margin-top: 30px;
+  }
+
+  .call__area .call__icon {
+    margin-left: 0;
   }
 
   span.cs__border {
