@@ -1042,6 +1042,7 @@ a.themes-btn {
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 0;
+  font-size: 22px;
 }
 
 .testimonial__img {
@@ -2490,8 +2491,12 @@ textarea {
 
 /* Media queries */
 
-@media (max-width: 767px) {
-  .col-md-6 {
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6 {
     width: 50%;
   }
 
@@ -2652,6 +2657,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translateX(259px);
   }
 
   .hamburger:hover {
@@ -2673,6 +2679,10 @@ textarea {
 
   .tronix__image img {
     transform: translateY(35px);
+  }
+
+  .image__wrapper {
+    text-align: center;
   }
 
   /* services */
@@ -2736,6 +2746,11 @@ textarea {
     top: -3px;
   }
 
+  /* brands */
+  .brand__wrapper [class*='col-']:nth-child(5) .brand__box  {
+    border-top: solid 1px var(--border-color);;
+  }
+
   /* footer */
 
   .footer__bot {
@@ -2756,6 +2771,10 @@ textarea {
 
   .icon__box {
     padding: 30px 15px;
+  }
+  
+  .foot__social ul li a {
+    margin-top: 25px;
   }
 
   /* about page */
@@ -2821,7 +2840,29 @@ textarea {
     margin-bottom: 35px;
   }
   /* end */
+}
 
+@media (max-width: 576px) { 
+  .container {
+    width: 100%;
+  }
+
+  .hamburger {
+    transform: translateX(72px);
+    padding: 10px;
+  }
+
+  .hero__title {
+    padding-right: 0;
+  }
+
+  .video__btn span {
+    display: none;
+  }
+
+  #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6 {
+    width: 100%;
+  }
 }
 
 
