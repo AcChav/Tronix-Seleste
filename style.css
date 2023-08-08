@@ -2496,7 +2496,7 @@ textarea {
     max-width: 720px;
   }
 
-  #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6 {
+  #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6 {
     width: 50%;
   }
 
@@ -2511,9 +2511,9 @@ textarea {
   }
 
   .header__top .col {
-    display: block;
+    display: flex;
     width: 100%;
-    text-align: center;
+    justify-content: center;
   }
 
   #projects .about__content {
@@ -2685,6 +2685,11 @@ textarea {
     text-align: center;
   }
 
+  .f-sb {
+    display: flex;
+    justify-content: center;
+  }
+
   /* services */
   .section__description {
     padding: 0;
@@ -2733,12 +2738,12 @@ textarea {
 
   .cs__area {
     padding: 25px 50px;
-    margin-left: 180px;
+    margin-left: 90px;
   }
 
   span.cs__border {
     height: 1px;
-    width: 195px;
+    width: 70px;
     position: relative;
     background: var(--white-color);
     display: inline-block;
@@ -2747,9 +2752,22 @@ textarea {
   }
 
   /* brands */
-  .brand__wrapper [class*='col-']:nth-child(5) .brand__box  {
-    border-top: solid 1px var(--border-color);;
+  .brand__wrapper [class*='col-']:nth-child(1) .brand__box, 
+  .brand__wrapper [class*='col-']:nth-child(5) .brand__box {
+    border-left: 1px solid var(--border-color);
   }
+
+  .brand__wrapper [class*='col-']:nth-child(5) .brand__box,
+  .brand__wrapper [class*='col-']:nth-child(6) .brand__box,
+  .brand__wrapper [class*='col-']:nth-child(8) .brand__box  {
+    border-top: 1px solid var(--border-color);
+  }
+
+  .brand__wrapper [class*='col-']:nth-child(7) .brand__box,
+  .brand__wrapper [class*='col-']:nth-child(8) .brand__box {
+    border-bottom: 1px solid var(--border-color);
+  }
+
 
   /* footer */
 
@@ -2843,6 +2861,12 @@ textarea {
 }
 
 @media (max-width: 576px) { 
+  .header__top .col {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
   .container {
     width: 100%;
   }
@@ -2860,7 +2884,22 @@ textarea {
     display: none;
   }
 
-  #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6 {
+  .cs__area {
+    padding: 25px 50px;
+    margin-left: 180px;
+  }
+
+  span.cs__border {
+    height: 1px;
+    width: 195px;
+    position: relative;
+    background: var(--white-color);
+    display: inline-block;
+    margin: 0 -1px;
+    top: -3px;
+  }
+
+  #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6  {
     width: 100%;
   }
 }
