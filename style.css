@@ -2896,11 +2896,11 @@ textarea {
   }
 
   
-  #welco .about__btn__area {
+  #welco .about__btn__area, #about__extension .about__btn__area  {
     display: block;
   }
 
-  .call__area {
+  .call__area, .call__number {
     margin-top: 30px;
   }
 
