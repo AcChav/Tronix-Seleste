@@ -2485,7 +2485,7 @@ textarea {
     max-width: 720px;
   }
 
-  #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6, #contact__form.left__benefits .col-md-6 {
+  #counter .col-md-6, #services .col-md-6, #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6, #contact__form.left__benefits .col-md-6 {
     width: 50%;
   }
 
@@ -2855,6 +2855,10 @@ textarea {
   .counter__items.r {
     transform: translateX(10px);
   }
+
+  .pad {
+    padding-top: 100px;
+  }
   /* end */
 }
 
@@ -2921,7 +2925,7 @@ textarea {
     top: -3px;
   }
 
-  #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6, #contact__form .col-md-6  {
+  #counter .col-md-6, #services .col-md-6, #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6, #contact__form .col-md-6  {
     width: 100%;
   }
 
@@ -2939,12 +2943,16 @@ textarea {
     display: none;
   }
 
-  #counter .counter__items {
+  #counter .counter__items, #counter {
     padding-top: 0;
   }
 
   .counter__wrapper [class*='col-']:first-child .counter__items  {
     margin-top: 100px;
+  }
+
+  .pad {
+    padding-top: 0;
   }
 }
 
