@@ -2935,6 +2935,10 @@ textarea {
     display: none;
   }
 
+  #counter .counter__items {
+    padding-top: 0;
+  }
+
   .counter__wrapper [class*='col-']:first-child .counter__items  {
     padding-top: 100px;
   }
