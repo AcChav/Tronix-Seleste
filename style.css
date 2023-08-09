@@ -2680,6 +2680,10 @@ textarea {
     justify-content: center;
   }
 
+  .pad-b {
+    padding-bottom: 35px;
+  }
+
   /* services */
   .section__description {
     padding: 0;
@@ -2953,6 +2957,14 @@ textarea {
 
   .pad {
     padding-top: 0;
+  }
+
+  .pad-b {
+    padding-bottom: 0;
+  }
+
+  .space {
+    padding-bottom: 2rem!important;
   }
 }
 
