@@ -2851,6 +2851,10 @@ textarea {
   .counter__wrapper [class*='col-']:first-child .counter__items  {
     padding-top: 100px;
   }
+
+  .counter__items.r {
+    transform: translateX(10px);
+  }
   /* end */
 }
 
@@ -2940,7 +2944,7 @@ textarea {
   }
 
   .counter__wrapper [class*='col-']:first-child .counter__items  {
-    padding-top: 100px;
+    margin-top: 100px;
   }
 }
 
