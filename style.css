@@ -2464,6 +2464,13 @@ textarea {
   width: 100%;
   justify-content: center;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input__area input[type="submit"]:hover {
+  background: var(--black-color);
+  color: var(--white-color);
+  cursor: pointer;
 }
 
 #footer__area.contact {
@@ -2483,10 +2490,6 @@ textarea {
 @media (max-width: 991px) {
   .container {
     max-width: 720px;
-  }
-
-  #counter .col-md-6, #services .col-md-6, #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6, #contact__form.left__benefits .col-md-6, #time .col-md-6  {
-    width: 50%;
   }
 
   .col-auto.none {
@@ -2816,8 +2819,12 @@ textarea {
 
   /* contact page */
   #time .item__wrapper {
-    display: block;
-    padding: 50px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #time .container {
+    max-width: max-content;
   }
 
   #time .icon__box {
@@ -2862,6 +2869,10 @@ textarea {
 
   .pad {
     padding-top: 100px;
+  }
+
+  #counter .col-md-6, #services .col-md-6, #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6, #contact__form.left__benefits .col-md-6, #time .col-md-6  {
+    width: 50%;
   }
   /* end */
 }
@@ -2936,6 +2947,10 @@ textarea {
   #contact__form .container {
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .item__wrapper {
+    padding: 42px 0 10px;
   }
 
   .tronix__image::before ,
