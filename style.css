@@ -2836,13 +2836,20 @@ textarea {
     width: 50%;
   }
 
-
   .benefits__items.pad{
     padding-bottom: 20px;
   }
 
   #contact__form .about_item {
     margin-bottom: 35px;
+  }
+
+  #counter .counter__items {
+    padding-top: 0;
+  }
+
+  .counter__wrapper [class*='col-']:first-child .counter__items  {
+    padding-top: 100px;
   }
   /* end */
 }
@@ -2926,14 +2933,6 @@ textarea {
 
   .purchase__wrapper {
     display: none;
-  }
-
-  .counter__items {
-    padding-top: 0;
-  }
-
-  .counter__wrapper [class*='col-']:first-child .counter__items  {
-    padding-top: 100px;
   }
 }
 
