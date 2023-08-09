@@ -2485,7 +2485,7 @@ textarea {
     max-width: 720px;
   }
 
-  #counter .col-md-6, #services .col-md-6, #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6, #contact__form.left__benefits .col-md-6 {
+  #counter .col-md-6, #services .col-md-6, #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6, #contact__form.left__benefits .col-md-6, #time .col-md-6  {
     width: 50%;
   }
 
@@ -2925,7 +2925,7 @@ textarea {
     top: -3px;
   }
 
-  #counter .col-md-6, #services .col-md-6, #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6, #contact__form .col-md-6  {
+  #counter .col-md-6, #services .col-md-6, #team .col-md-6, #footer__area .col-md-6, #brands .col-md-6, #blog .col-md-6, #contact__form .col-md-6, #time .col-md-6   {
     width: 100%;
   }
 
