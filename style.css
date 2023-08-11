@@ -2487,6 +2487,7 @@ textarea {
 
 /* Media queries */
 
+/* tablet view */
 @media (max-width: 991px) {
   .container {
     max-width: 720px;
@@ -2877,6 +2878,7 @@ textarea {
   /* end */
 }
 
+/* mobile view */
 @media (max-width: 767px) { 
   .header__top .col {
     display: block;
